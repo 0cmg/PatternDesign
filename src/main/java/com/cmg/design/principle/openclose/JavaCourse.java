@@ -24,13 +24,4 @@ public class JavaCourse implements ICourse {
         return this.price;
     }
 
-    @Override
-    public String toString() {
-        return "JavaCourse{" +
-                "id=" + this.id +
-                ", name='" + this.name + '\'' +
-                ", price=" + this.price +
-                '}';
-    }
-
 }
