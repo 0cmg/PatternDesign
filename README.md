@@ -102,4 +102,4 @@
         延迟加载  
         序列化和反序列化安全  
         反射  
-    图片：![Image](https://github.com/0cmg/DesignCoding/raw/develop/imgs/2020-05-13_212529.png)  
+    图片：![Image](./imgs/2020-05-13_212529.png)  
