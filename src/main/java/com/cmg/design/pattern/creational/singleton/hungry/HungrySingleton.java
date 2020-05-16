@@ -18,7 +18,9 @@ public class HungrySingleton implements Serializable {
         return hungrySingleton;
     }
     private HungrySingleton(){
-
+        if(hungrySingleton != null){
+            throw new RuntimeException("单例构造器禁止反射调用");
+        }
     }
     private Object readResolve(){
         return hungrySingleton;

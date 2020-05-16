@@ -9,7 +9,9 @@ package com.cmg.design.pattern.creational.singleton.lazy;
 public class LazyDoubleCheckSingleton {
     private volatile static LazyDoubleCheckSingleton lazyDoubleCheckSingleton = null;
     private LazyDoubleCheckSingleton(){
-
+        if(lazyDoubleCheckSingleton != null){
+            throw new RuntimeException("单例构造器禁止反射调用");
+        }
     }
     public static LazyDoubleCheckSingleton getInstance(){
         if(lazyDoubleCheckSingleton == null){
