@@ -1,4 +1,4 @@
-package com.cmg.design.pattern.creational.singleton;
+package com.cmg.design.pattern.creational.singleton.enump;
 
 /**
  * @ClassName EnumInstance
