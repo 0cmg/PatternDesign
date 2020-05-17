@@ -105,6 +105,6 @@
 	volatile:保证内存可见性,禁止指令重排序
 		1）保证了不同线程对变量进行操作时的可见性，即一个线程修改了某个变量的值，这新值对其他线程来说是立即可见的。
 		2）禁止进行指令重排序。
-![单例DoubleCheck单线程](https://github.com/0cmg/DesignCoding/blob/develop/images/singleton_2020-05-16_17-07-10.png)
-![单例DoubleCheck多线程](https://github.com/0cmg/DesignCoding/blob/develop/images/singleton_2020-05-16_17-08-37.png)
-![静态内部类](https://github.com/0cmg/DesignCoding/blob/master/develop/singleton_2020-05-16_17-21-36.png)
+![单例DoubleCheck单线程](https://github.com/0cmg/DesignCoding/develop/images/singleton_2020-05-16_17-07-10.png)
+![单例DoubleCheck多线程](https://github.com/0cmg/DesignCoding/develop/images/singleton_2020-05-16_17-08-37.png)
+![静态内部类](https://github.com/0cmg/DesignCoding/master/develop/singleton_2020-05-16_17-21-36.png)
