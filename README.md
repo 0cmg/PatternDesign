@@ -132,10 +132,10 @@
 		ThreadLocal线程单例
 		RunTime类（饿汉式）、DeskTop（容器单例）、Spring，AbstractFactoryBean，ErrorContext（限制区域不同）、Mybatis
     ![单例DoubleCheck单线程](./images/singleton_2020-05-16_17-07-10.png)
-![单例DoubleCheck单线程](https://s1.ax1x.com/2020/05/20/Yod100.png)    
     ![单例DoubleCheck多线程](./images/singleton_2020-05-16_17-08-37.png)
-![单例DoubleCheck多线程](https://s1.ax1x.com/2020/05/20/YodGkT.png)    
     ![静态内部类](./images/singleton_2020-05-16_17-21-36.png)
+![单例DoubleCheck单线程](https://s1.ax1x.com/2020/05/20/Yod100.png)    
+![单例DoubleCheck多线程](https://s1.ax1x.com/2020/05/20/YodGkT.png)    
 ![静态内部类](https://s1.ax1x.com/2020/05/20/YodRcd.png)    
 #### 2.6原型模式
 	定义：指原型实例指定创建对象的种类，并通过拷贝这些原型对象创建新的对象
