@@ -39,6 +39,7 @@ public class Pig implements Cloneable{
 
         pig.birthday = (Date) pig.birthday.clone();
         return pig;
+//        return super.clone();
     }
 
     @Override
