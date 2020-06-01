@@ -345,9 +345,10 @@
 
 + 实际应用：
 > JDBC的Driver类
+#### 3.3代理模式
 + 定义：为其他对象提供一种代理，以控制对这个对象的访问
 + 补充定义：代理对象在客户端和目标对象之间起到中介的作用
-+ 类型：
++ 类型：结构型
 + 使用场景：
 >* 保护目标对象
 >* 增强目标对象
@@ -386,4 +387,4 @@
 >* 代理模式和适配器模式
 
 + 实际应用：
-> 
+> java.lang.reflect.Proxy类，spring的proxyFactoryBean类、CglibAopProxy类，Mybatis的MapperProxyFactory类
