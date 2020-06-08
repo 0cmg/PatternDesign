@@ -166,9 +166,9 @@
 >* RunTime类（饿汉式）、DeskTop（容器单例）、Spring，AbstractFactoryBean，ErrorContext（限制区域不同）、Mybatis
 
 + 例图 
-<!-- ![单例DoubleCheck单线程](./images/singleton_2020-05-16_17-07-10.png) --> 
-<!-- ![单例DoubleCheck多线程](./images/singleton_2020-05-16_17-08-37.png) -->
-<!-- ![静态内部类](./images/singleton_2020-05-16_17-21-36.png) -->
+<!-- ![单例DoubleCheck单线程](../../images/singleton_2020-05-16_17-07-10.png) --> 
+<!-- ![单例DoubleCheck多线程](../../images/singleton_2020-05-16_17-08-37.png) -->
+<!-- ![静态内部类](../../images/singleton_2020-05-16_17-21-36.png) -->
 >* ![单例DoubleCheck单线程](https://s1.ax1x.com/2020/05/20/Yod100.png)    
 >* ![单例DoubleCheck多线程](https://s1.ax1x.com/2020/05/20/YodGkT.png)    
 >* ![静态内部类](https://s1.ax1x.com/2020/05/20/YodRcd.png)   
@@ -331,7 +331,7 @@
 > java.util.HashMap类，java.util.List类,Maybits的SqlNode
 
 + 例图：
-<!-- ![组合模式](./images/composite_2020-05-30_15-01-59.png) -->
+<!-- ![组合模式](../../images/composite_2020-05-30_15-01-59.png) -->
 > ![组合模式](https://s1.ax1x.com/2020/05/30/tMyVBD.png)
 
 #### 2.12桥接模式
@@ -389,7 +389,7 @@
 >* 当Bean没有实现接口时，Spring使用CGlib
 >* 可以强制使用CGlib
 >>* 在spring配置中加入 `<aop:aspectj-autoproxy proxy-target-class="true"/>`
->> <!-- ![Spring代理选择扩展](./images/proxy_2020-05-31_220037.png) -->
+>> <!-- ![Spring代理选择扩展](../../images/proxy_2020-05-31_220037.png) -->
 >> ![Spring代理选择扩展](https://s1.ax1x.com/2020/05/31/t333WD.png)
 
 + 代理速度对比扩展：
