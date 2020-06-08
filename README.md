@@ -2,11 +2,11 @@
 ## 一、UML入门
 + UML基础
 + UML类图
-> <!--![uml类图](./images/uml2020-06-07_095158.png)-->
+> <!--![uml类图](../../images/uml2020-06-07_095158.png)-->
 > ![uml类图](https://s1.ax1x.com/2020/06/07/tgdEO1.png)
 + UML时序图
 + UML类关系
-> <!--![uml类关系.png](./images/uml_2020-06-07_09-59-05.png)-->
+> <!--![uml类关系.png](../../images/uml_2020-06-07_09-59-05.png)-->
 > ![uml类关系.png](https://s1.ax1x.com/2020/06/07/tgdKYD.png)
 + UML记忆技巧
 ## 二、软件设计七大原则 
